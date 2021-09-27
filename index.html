@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <label for="Nombre">Nombre Completo</label>
+        <input type="text" id="Nombre" name="nombreCompleto" placeholder="Nombre Aquí">
+        <br>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="emailAsignado" placeholder="ejemplo@email.com">
+        <br>
+        <label for="turno">Eliga el turno de cursada</label>
+        
+        <br>   
+        <label for="turnoM">Turno mañana</label>
+            <input type="radio" id="turnoM" name="turno" value="mañana">
+
+            <label for="turnoT">Turno tarde</label>
+            <input type="radio" id="turnoT" name="turno" value="tarde">
+
+            <label for="turnoN">Turno noche</label>
+            <input type="radio" id="turnoN" name="turno" value="noche">
+
+        <br>
+        <label for="diplomatura">Indique a los cursos que se anota</label>
+        <br>
+            <label for="PWI">Prog.Web.Inicial</label> 
+            <input type="checkbox" id="PWI" name="cursos" value="Prog.Web.Inicial">
+            
+            <label for="PWA">Prog.Web.Adv</label>
+            <input type="checkbox" id="PWA" name="cursos" value="Prog.Web.Adv">
+        
+        <br>
+        <label for="nivel">Elija el nivel de conocimiento</label>
+            <select name="nivel" id="nivel">
+                <option value="inicial">inicial</option>
+                <option value="intermedio">intermedio</option>
+                <option value="avanzado">avanzado</option>
+            </select>
+        <br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
